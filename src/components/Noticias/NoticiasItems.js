@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import api_news from '../Service/api-news';
 
 class NoticiasItems extends Component {
@@ -22,11 +22,8 @@ class NoticiasItems extends Component {
                 {noticias.map(noticia => (
                     <div className="col-sm-4" key={noticia.id}>
                         <div className="h_blog_item">
-                            <NavLink to="/Noticiasingle">
-                                <a href={noticia.slug}>
-                                    <img className="img-fluid" src={noticia.foto} alt={noticia.titulo}/>
-                                </a>
-                            </NavLink>
+                            <Link className="App-link" to={`/Noticiasingle/${noticia.slug}`}>
+                            <img className="img-fluid" src={noticia.foto} alt={noticia.titulo}/>
                             <div className="h_blog_content">
                                 <div className="post_time"><i className="icon_clock_alt"></i>
                                     {new Intl.DateTimeFormat('pt-BR', {
@@ -37,15 +34,12 @@ class NoticiasItems extends Component {
                                         new Date(noticia.data)
                                     )}
                                 </div>
-                                <NavLink href={noticia.slug} to="/Noticiasingle">
-                                    <h3>{noticia.titulo}</h3>
-                                </NavLink>
+                                <h3>{noticia.titulo}</h3>
                                 <div className="post-info-bottom">
-                                    <NavLink href={noticia.slug} to="/Noticiasingle">
-                                        <div className="learn_btn_two">Leia <i className="arrow_right"></i></div>
-                                    </NavLink>
+                                    <div className="learn_btn_two">Leia <i className="arrow_right"></i></div>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                     </div>
                 ))}
