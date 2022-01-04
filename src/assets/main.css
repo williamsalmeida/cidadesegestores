@@ -14143,6 +14143,10 @@ p span {
   box-shadow: none;
 }
 
+.blog_single img {
+  width: 100%;
+}
+
 .blog_single .blockquote {
   color: #5e2ced;
   font-style: italic;
@@ -14216,6 +14220,10 @@ p span {
 .post_author .media-body p {
   color: #677294;
   margin-bottom: 0px;
+}
+
+.blog_post{
+  display: flex;
 }
 
 .blog_post_item .blog_content {
@@ -14345,6 +14353,7 @@ p span {
 }
 
 .blog-sidebar .widget.widget_recent_post .post_item img {
+  width: 90px;
   border-radius: 3px;
 }
 
@@ -22888,13 +22897,13 @@ a .h_head:hover {
 }
 
 .new_footer_area .footer_bottom {
-  padding-top: 5px;
-  padding-bottom: 50px;
+  padding: 20px 0;
+  background: #2c2c51;
 }
 
 .new_footer_area .footer_bottom p {
   font-size: 16px;
-  color: #6a7695;
+  color: #fff;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -24753,6 +24762,14 @@ a .h_head:hover {
 .event_sponser_inner .event_sponser_item {
   border-top: 1px solid #f0ebec;
   padding: 40px 0px;
+}
+
+.event_sponser_inner .event_sponser_item .partner_logo-gov img{
+  /* height: 130px; */
+}
+
+.event_sponser_inner .event_sponser_item img{
+  width: 100%;
 }
 
 .event_sponser_inner .event_sponser_item .sponser_title {

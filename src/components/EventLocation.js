@@ -1,39 +1,40 @@
 import React from "react";
+import { FaFacebook, FaInstagramSquare, FaTwitter, FaYoutube } from "react-icons/fa";
 import Map from "./Map";
 const EventLocation = () => {
   return (
-    <section className="event_location_area">
+    <section className="event_location_area" id="contato">
       <Map />
       <div className="container">
         <div className="event_location">
           <div className="contact_info_item">
-            <h6>Venue Infos</h6>
+            <h6>Onde será?</h6>
             <p>
-              Mirpur 1620 Collins Street West <br />
-              Victoria 406 New York
+              Centro Cultural e De Exposições Ruth Cardoso<br />
+              Rua Celso Piatti - Jaraguá, Maceió - AL, 57022-210
             </p>
           </div>
           <div className="contact_info_item">
-            <h6>Contact Info</h6>
+            <h6>Contato</h6>
             <p>
-              <a href="mailto:saasland@gmail.com">saasland@gmail.com</a>
+              <a href="mailto:saasland@gmail.com">ama@ama.al.org.br</a>
             </p>
             <p>
-              <a href="tel:3024437488">(+096) 302 443 7488</a>
+              <a href="tel:3024437488">(82) 2122-7300</a>
             </p>
           </div>
           <div className="f_social_icon_two">
-            <a href="/#">
-              <i className="ti-facebook"></i>
+            <a href="https://www.instagram.com/amaalagoas/">
+              <FaInstagramSquare />
             </a>
-            <a href="/#">
-              <i className="ti-twitter-alt"></i>
+            <a href="https://www.facebook.com/AssociacaoDosMunicipiosAlagoanos/">
+              <FaFacebook />
             </a>
-            <a href="/#">
-              <i className="ti-vimeo-alt"></i>
+            <a href="https://twitter.com/amaalagoas">
+              <FaTwitter />
             </a>
-            <a href="/#">
-              <i className="ti-pinterest"></i>
+            <a href="https://www.youtube.com/user/AMAalagoas">
+              <FaYoutube />
             </a>
           </div>
         </div>

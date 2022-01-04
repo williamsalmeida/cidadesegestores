@@ -3,7 +3,7 @@ import EventTimer from './EventTimer';
 
 const EventCount =()=> {
     return(
-        <section className="event_counter_area" id="sobre">
+        <section className="event_counter_area" id="acompanhe">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4">

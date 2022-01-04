@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import api_news from '../Service/api-news';
 
 class NoticiasItems extends Component {
@@ -19,11 +19,11 @@ class NoticiasItems extends Component {
         
         return(
             <>
-                {noticias.map(noticia => (
+                {noticias.slice(0,3).map(noticia => (
                     <div className="col-sm-4" key={noticia.id}>
                         <div className="h_blog_item">
                             <Link className="App-link" to={`/Noticiasingle/${noticia.slug}`}>
-                            <img className="img-fluid" src={noticia.foto} alt={noticia.titulo}/>
+                            <img className="img-fluid" src={noticia.foto} alt={noticia.titulo} loading="lazy"/>
                             <div className="h_blog_content">
                                 <div className="post_time"><i className="icon_clock_alt"></i>
                                     {new Intl.DateTimeFormat('pt-BR', {

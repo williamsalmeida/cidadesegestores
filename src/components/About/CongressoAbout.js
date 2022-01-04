@@ -2,7 +2,7 @@ import React from 'react';
 
 const EventAbout =()=>{
     return(
-        <section className="event_about_area">
+        <section className="event_about_area" id="congresso">
             <div className="container">
                 <div className="row align-items-center flex-row-reverse">
                     <div className="col-lg-6">

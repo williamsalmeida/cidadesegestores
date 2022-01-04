@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node@14/14.16.1_1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add DayJS
+  /usr/local/Cellar/node@14/14.16.1_1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @react-icons
 
 PATH: 
   /usr/local/opt/node@14/bin:/Users/williamsalmeida/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/williamsalmeida/.zinit/polaris/bin:/usr/local/opt/node@14/bin:/Users/williamsalmeida/.fastlane/bin:/Users/williamsalmeida/Android/Sdk/tools:/Users/williamsalmeida/Android/Sdk/platform-tools:/Users/williamsalmeida/Android/Sdk/tools:/Users/williamsalmeida/Android/Sdk/platform-tools:/usr/local/bin
@@ -14,8 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/DayJS: Not found
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+  Error: https://registry.yarnpkg.com/@react-icons: Request "https://registry.yarnpkg.com/@react-icons" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66997:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
       at Request.emit (events.js:315:20)
       at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)

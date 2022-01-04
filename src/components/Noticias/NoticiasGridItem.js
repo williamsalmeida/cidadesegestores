@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import api_news from '../Service/api-news';
 
-class BlogGridItem extends Component{
+class NoticiasGridItem extends Component{
 
     state= {
         noticias: [],
@@ -44,4 +44,4 @@ class BlogGridItem extends Component{
         )
     }
 }
-export default BlogGridItem;
+export default NoticiasGridItem;

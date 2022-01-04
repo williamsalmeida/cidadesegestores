@@ -2,10 +2,8 @@ import React from 'react';
 import OnepageMenu from '../components/OnepageMenu';
 import Breadcrumb from '../components/Breadcrumb';
 import Noticiasingle from '../components/Noticias/Noticiasingle'
-import FooterTwo from '../components/Footer/FooterTwo';
-import FooterData from '../components/Footer/FooterData';
 
-const BlogSingle = () => {
+const NoticiaSingle = () => {
     return(
         <div className="body_wrapper">
             <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive"/>
@@ -15,4 +13,4 @@ const BlogSingle = () => {
         </div>
     )
 }
-export default BlogSingle;
+export default NoticiaSingle;

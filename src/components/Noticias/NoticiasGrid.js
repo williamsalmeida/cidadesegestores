@@ -1,13 +1,13 @@
 import React from 'react';
-import BlogGridItem from './BlogGridItem';
-const BlogGrid =()=>{
+import NoticiasGridItem from './NoticiasGridItem';
+const NoticiasGrid =()=>{
     return(
         <section className="blog_area_two sec_pad">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 blog_grid_info">
                         <div className="row">
-                            <BlogGridItem />
+                            <NoticiasGridItem />
                         </div>
                         <ul className="list-unstyled page-numbers shop_page_number text-left mt_30">
                             <li><span aria-current="page" className="page-numbers current">1</span></li>
@@ -20,4 +20,4 @@ const BlogGrid =()=>{
         </section>
     )
 }
-export default BlogGrid;
+export default NoticiasGrid;

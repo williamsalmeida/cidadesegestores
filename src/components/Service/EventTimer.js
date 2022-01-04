@@ -50,8 +50,8 @@ class EventTimer extends Component {
   render() {
     const { days, seconds, hours, minutes } = this.state;
     return (
-      <div id="countdown" className="row">
-        <div className="col-3">
+      <div id="countdown" className="row text-center">
+        <div className="col-lg-3">
             <div className="box one">
                 <div className="text">
                     <p id="day">{days}</p>
@@ -59,7 +59,7 @@ class EventTimer extends Component {
                 </div>
             </div>
         </div>
-        <div className="col-3">
+        <div className="col-lg-3">
             <div className="box two">
                 <div className="text">
                     <p id="hour">{hours}</p>
@@ -67,7 +67,7 @@ class EventTimer extends Component {
                 </div>
             </div>
         </div>
-        <div className="col-3">
+        <div className="col-lg-3">
             <div className="box three">
                 <div className="text">
                     <p id="minute">{minutes}</p>
@@ -75,7 +75,7 @@ class EventTimer extends Component {
                 </div>
             </div>
         </div>
-        <div className="col-3">
+        <div className="col-lg-3">
             <div className="box four">
                 <div className="text">
                     <p id="second">{seconds}</p>

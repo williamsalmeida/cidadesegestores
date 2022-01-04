@@ -158,7 +158,7 @@ const FooterData = {
         icon: 'ti-pinterest',
       }
     ],
-    copywrite:"© SaasLand Inc.. 2019 All rights reserved.",
+    copywrite:"© Associação dos Municípios Alagoanos. 2022 | Todos os direitos reservados.",
     TestimonialText: [
       {
         id: 1,

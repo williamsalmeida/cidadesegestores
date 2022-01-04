@@ -6,7 +6,7 @@ export class MapContainer extends Component {
     super(props);
 
     this.state = {
-      stores: [{ lat: 47.49855629475769, lng: -122.14184416996333 }],
+      stores: [{ lat: -9.6688214, lng: -35.7250285 }],
     };
   }
 
@@ -35,8 +35,8 @@ export class MapContainer extends Component {
       <section className="contact_map">
         <Map
           google={this.props.google}
-          zoom={8}
-          initialCenter={{ lat: 47.444, lng: -122.176 }}
+          zoom={17}
+          initialCenter={{ lat: -9.6688214, lng: -35.7250285 }}
           style={mapStyles}
         >
           {this.displayMarkers()}

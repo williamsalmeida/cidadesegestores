@@ -1,13 +1,11 @@
 import React from 'react';
 import OnepageMenu from '../components/OnepageMenu';
-import EventBanner from "../components/Banner/EventBanner";
+import EventBanner from "../components/EventBanner";
 import NoticiasHome from "../components/Noticias/NoticiasHome";
 import EventCount from "../components/Service/EventCount";
 import CongressoAbout from "../components/About/CongressoAbout";
-import Team from "../components/Team/Team";
-import EventDetails from "../components/Features/EventDetails";
 import FeiraAbout from "../components/About/FeiraAbout";
-import ScheduleTab from "../components/scheduleTab";
+import EventDetails from "../components/EventDetails";
 import EventSponser from "../components/EventSponser";
 import EventLocation from "../components/EventLocation";
 import Footer from "../components/Footer/Footer";
@@ -20,9 +18,7 @@ export const Home = () => (
       <EventCount />
       <NoticiasHome />
       <CongressoAbout />
-      <Team />
       <FeiraAbout />
-      <ScheduleTab />
       <EventDetails />
       <EventSponser />
       <EventLocation /> 
