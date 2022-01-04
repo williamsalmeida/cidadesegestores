@@ -9,7 +9,6 @@ const NoticiaSingle = () => {
             <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive"/>
             <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png"/>
             <Noticiasingle />
-            {/* <FooterTwo FooterData={FooterData}/> */}
         </div>
     )
 }
