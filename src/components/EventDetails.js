@@ -19,7 +19,7 @@ const EventDetails =()=>{
                                     <div className="date">22/01/2022 das 08h às 21h</div>
                                 </div>
                                 <h3>Aulão Gratuito para Concurso da PM</h3>
-                                <a href="https://www.alfaconcursos.com.br/produtos?utf8=%E2%9C%93&query=srv" target="_blank" className="event_btn event_btn_two btn_hover">Inscreva-se</a>
+                                <a href="https://www.alfaconcursos.com.br/produtos?utf8=%E2%9C%93&query=srv" className="event_btn event_btn_two btn_hover">Inscreva-se</a>
                             </div>
                         </div>
                         <div className="col-md-6">
