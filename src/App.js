@@ -15,7 +15,7 @@ class App extends Component {
       <Router>
         <Switch>
           <ScrollToTopRoute exact={true} path={"/"} component={Home} />
-          <ScrollToTopRoute path="/NoticiaSingle/:slug" component={NoticiaSingle} />    
+          <ScrollToTopRoute path="/noticias/:slug" component={NoticiaSingle} />
           <ScrollToTopRoute component={NotFound} />
         </Switch>
       </Router>
