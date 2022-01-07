@@ -10953,6 +10953,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: scale(1.04);
 }
 
+/*============ modal-popup_area css ===========*/
+.modal-popup img {
+  height: 100vh;
+}
+
 /*============ seo_fact_area css ===========*/
 .seo_fact_area {
   background: #f9f7fd;

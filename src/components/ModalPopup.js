@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import ReactPlayer from "react-player";
 import Modal from "react-responsive-modal";
 
-class Player extends Component {
+class ModalPopup extends Component {
   render() {
     const { open, toggleModal } = this.props;
     return (
@@ -12,26 +11,24 @@ class Player extends Component {
         styles={{
           modal: {
             maxWidth: "unset",
-            width: "100%",
             padding: "unset"
           },
           overlay: {
             background: "rgba(0, 0, 0, 0.5)"
           },
           closeButton: {
-            background: "yellow"
+            background: "transparent"
           }
         }}
         center
       >
-        <ReactPlayer
-          url="https://vimeo.com/291715535"
-          width="100%"
-          height="calc(100vh - 100px)"
-        />
+        <div className="modal-popup">        
+          <img src="https://ama-al.com.br/wp-content/uploads/2022/01/adiamento.jpg" alt="" />
+        </div> 
+      
       </Modal>
     );
   }
 }
 
-export default Player;
+export default ModalPopup;
