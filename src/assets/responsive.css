@@ -2754,6 +2754,10 @@
 }
 
 @media (max-width:768px){
+    .modal-popup img {
+        height: auto;
+        width: 100%;
+    }
     .sec_title br,.prototype_service_info h2 br,.hosting_title h2 br{
         display: none;
     }
