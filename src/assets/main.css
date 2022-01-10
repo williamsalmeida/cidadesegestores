@@ -24518,7 +24518,8 @@ a .h_head:hover {
 }
 
 .e_promo_text .date {
-  color: #fba820;
+  color: #2c2c51;
+  font-weight: 500;
   margin-left: 30px;
 }
 
