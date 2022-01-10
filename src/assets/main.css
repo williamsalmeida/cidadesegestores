@@ -24156,6 +24156,7 @@ a .h_head:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 10px auto;
 }
 
 .event_counter .box p {
